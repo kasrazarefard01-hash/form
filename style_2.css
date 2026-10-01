@@ -1,0 +1,132 @@
+body{
+    font-family: "Inter",sans-serif;
+    background-color: color-mix(in srgb,#16213e  60%,  #0a0e1f 40%);
+    display: flex;
+    justify-content: center;
+}
+
+.p-1{
+    font-size: 40px;
+    color: #f5f6fa;
+    margin-bottom: 4px;
+}
+.p-2{
+    color:#8b93a7;
+    margin-top: 0;
+    margin-bottom:25px;
+}
+
+header{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+}
+
+.div-form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(255,255,255,0.12);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    min-height: 700px;
+    max-height: max-content; 
+    background-color: rgba(255,255,255,0.03);
+    padding: 20px;
+    align-items: center;
+    border-radius: 20px;
+}
+.user-ic{
+    background-color: color-mix(in srgb, #3b5bdb 50%, #1e3a8a 50%);
+    border-radius: 50%;
+    font-size: 120px;
+    color: #8fb4ff;
+}
+
+input{
+    background-color: rgba(255,255,255,0.04);
+    border-color: rgba(255,255,255,0.14);
+    color: #f5f6fa;
+    border-radius: 10px;
+    width: 350px;
+    padding: 15px;
+    padding-left: 35px;
+}
+
+.div-email , .div-password{
+    position: relative;
+}
+label{
+    color: #f5f6fa;
+}
+
+.email-ic , .password-ic{
+    position: absolute;
+    left:14px;
+    top:50%;
+    transform: translateY(-50%);
+    color: #6b7280;
+}
+.b{
+    width:400px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+    font-size: 20px;
+    color:white;
+}
+a{
+    text-decoration: none;
+    color:lightblue;
+    margin-top: 10px;
+}
+
+.line-1 , .line-2{
+    border: 0.5px solid  #6b7280;
+    height: 0;
+    width: 125px;
+}
+.span-line{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.p-span{
+    color:#6b7280
+}
+.b-1 , .b-2{
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.03);;
+    border-color: rgba(255,255,255,0.14);
+    color:#f5f6fa;
+    font-size: 20px;
+}
+.div-button{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    margin-top: 10px;
+}
+.p-f{
+    color:#8b93a7;
+}
+.div-f{
+    margin-top: 10px;
+}
+span{
+    display: inline-block;
+    color:#f87171;
+    background-color: rgba(248, 113, 113, 0.1);
+    width: fit-content;
+    margin-top: 0;
+    margin-bottom: 5px;
+}

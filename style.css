@@ -1,0 +1,122 @@
+body {
+    background-color: color-mix(in srgb, #0a0e1f 40%,#16213e 60%);
+    margin-top: 20px;
+    font-family: "Inter",sans-serif;
+}
+
+.span{
+    color: #f87171;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-color: rgba(248, 113, 113, 0.1);
+    width:fit-content;
+}
+
+#div-1{
+
+    display: flex;
+    margin: auto;
+    border: 2px solid rgba(255,255,255,0.12);
+    width:600px;
+    min-height:877px;
+    height: auto;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.03);;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.my-icon{
+    padding: 40px;
+    font-size: 60px;
+    background-color: color-mix(in srgb, #1e3a8a 100%, #3b5bdb 0%);
+    border-radius: 50%;
+    color:#8fb4ff;
+    
+}
+figure{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: -4px 35px 35px 35px;
+}
+
+.text{
+    color:#f5f6fa;
+    text-align: center;
+}
+.sub{
+    color:#8b93a7;
+    text-align: center;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: -20px;
+}
+.input{
+    width: 500px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.14);
+    padding-left: 35px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color:white;
+
+
+}
+
+.div-form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left:30px;
+}
+label{
+    color:#c3c8d4;
+    font-size: 20px;
+}
+
+.my-icon-2, .my-icon-3, .my-icon-4, .my-icon-5 {
+    position: absolute;
+    top: 56%;
+    left: 12px;
+    transform: translateY(-100%);
+    font-size: 20px;
+    color: #6b7280;
+}
+
+
+
+.div-name, .div-email ,.div-password ,.div-repassword{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.div-text{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.button{
+    width: 94%;
+    height: 66px;
+    background-color: color-mix(in srgb, #3b82f6 60%, #4f46e5 40%);
+    border-color: color-mix(in srgb, #3b82f6 60%, #4f46e5 40%);
+    color: white;
+    font-size: 30px;
+    display: block;
+}
+.p{
+    color:#c3c8d4
+}
+.a{
+    color:#6d9bff;
+    text-decoration: none;
+}
